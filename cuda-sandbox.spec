@@ -8,7 +8,7 @@
 
 Name:           cuda-sandbox
 Epoch:          1
-Version:        13.1.115
+Version:        13.2.51
 Release:        1%{?dist}
 Summary:        CUDA nvsandboxutils
 License:        CUDA Toolkit
@@ -57,6 +57,9 @@ install -p -m 0644 -D lib/stubs/libnvidia-sandboxutils_loader.a %{buildroot}%{_l
 %{_libdir}/libnvidia-sandboxutils_loader.a
 
 %changelog
+* Thu Mar 19 2026 Simone Caronni <negativo17@gmail.com> - 1:13.2.51-1
+- Update to 13.2.51.
+
 * Mon Feb 02 2026 Simone Caronni <negativo17@gmail.com> - 1:13.1.115-1
 - Update to 13.1.115.
 
